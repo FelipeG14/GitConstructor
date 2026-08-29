@@ -3,10 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         Direccion direccion1 = new Direccion("Suba", "Bogota");
-
         Persona p1 = new Persona("Felipe",23, direccion1);
-
         p1.mostrarDatos();
 
+        Direccion direccion2 = new Direccion("Laureles", "Medellin");
+        Persona p2 = new Persona("Juan",30,direccion2);
+        p2.mostrarDatos();
     }
 }
