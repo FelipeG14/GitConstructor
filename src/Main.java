@@ -6,6 +6,7 @@ public class Main {
 
         Persona p1 = new Persona("Felipe",23, direccion1);
 
+        p1.mostrarDatos();
 
     }
 }

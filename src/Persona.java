@@ -11,7 +11,7 @@ public class Persona {
     public void mostrarDatos(){
         //imprimir datos de la clase
         System.out.println("Nombre: "+nombre);
-        System.out.println("Edad: "+edad);
+        System.out.println("Edad: "+edad+ " años");
         //imprimir datos de la clase direccion
         System.out.println("Ciudad: "+direccion.ciudad);
         System.out.println("Barrio: "+direccion.barrio);
