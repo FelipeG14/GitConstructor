@@ -4,5 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Direccion direccion1 = new Direccion("Suba", "Bogota");
 
+        Persona p1 = new Persona("Felipe",23, direccion1);
+
+
     }
 }
