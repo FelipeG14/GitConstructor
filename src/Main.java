@@ -6,6 +6,8 @@ public class Main {
         Persona p1 = new Persona("Felipe",23, direccion1);
         p1.mostrarDatos();
 
+        System.out.println("---------------------------------------------------------");
+
         Direccion direccion2 = new Direccion("Laureles", "Medellin");
         Persona p2 = new Persona("Juan",30,direccion2);
         p2.mostrarDatos();
